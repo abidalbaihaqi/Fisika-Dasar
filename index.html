@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Minimalist Bootstrap Presentation Wireframe - 17-Slide interactive deck optimized for Antigravity engine.">
+  <title>Navigasi Teknologi Baterai</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Viewport Container Wrapper -->
+  <div class="viewport-container d-flex flex-column vh-100 bg-white text-dark overflow-hidden">
+    
+    <!-- Floating Exit Presentation Button -->
+    <button class="btn btn-dark btn-sm exit-presentation-btn shadow" onclick="togglePresentationMode(false)">
+      Exit Mode
+    </button>
+    
+    <!-- Translucent Sticky Header -->
+    <header class="presentation-header d-flex align-items-center justify-content-between px-4">
+      <div class="d-flex align-items-center gap-2">
+        <div class="border border-dark border-2 rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width: 28px; height: 28px; font-size: 14px;">K5</div>
+        <span class="fw-bold tracking-tight">Kelompok 5</span>
+      </div>
+      <div class="d-none d-md-block text-center flex-grow-1">
+        <span class="text-uppercase tracking-wider small fw-bold text-muted">Navigasi Teknologi Baterai</span>
+      </div>
+      <div>
+        <button class="btn btn-outline-dark btn-sm fw-bold px-3" onclick="togglePresentationMode(true)">Present</button>
+      </div>
+    </header>
+
+    <!-- Central Deck Viewport Container -->
+    <main class="slides-wrapper">
+      
+      <!-- SLIDE 1: Judul -->
+      <section class="slide-section active" id="slide-1">
+        <div class="d-flex align-items-center justify-content-center text-center flex-column h-100">
+          <span class="text-uppercase tracking-wider small fw-bold text-muted mb-3 d-block">We Present</span>
+          <h1 class="display-1 fw-extrabold tracking-tight mb-2 lh-1 text-uppercase">Navigasi Teknologi Baterai</h1>
+          <p class="lead text-muted fs-4 mt-3 max-w-50mx">Battery Technology Navigation</p>
+        </div>
+      </section>
+      <!-- SLIDE 2: Team -->
+      <section class="slide-section" id="slide-2">
+        <div class="w-100">
+          <h2 class="fw-extrabold mb-5">Our Team</h2>
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+            
+            <!-- Profile 1 -->
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <div class="ratio ratio-1x1 bg-secondary bg-opacity-10 border rounded mb-3 overflow-hidden position-relative">
+                  <img src="./assets/abid.jpeg" alt="Muhammad Abid Albaihaqi" class="w-100 h-100 object-fit-cover" />
+                </div>
+                <h5 class="fw-bold mb-1">Muhammad Abid Albaihaqi</h5>
+                <p class="text-muted small mb-0 uppercase tracking-wider">251011450302</p>
+              </div>
+            </div>
+          
+            <!-- Profile 2 -->
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <div class="ratio ratio-1x1 bg-secondary bg-opacity-10 border rounded mb-3 overflow-hidden position-relative">
+                  <img src="path/to/profile2.jpg" alt="David Chen" class="w-100 h-100 object-fit-cover" />
+                </div>
+                <h5 class="fw-bold mb-1">Azriel</h5>
+                <p class="text-muted small mb-0 uppercase tracking-wider">Systems Engineer</p>
+              </div>
+            </div>
+            
+            <!-- Profile 3 -->
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <div class="ratio ratio-1x1 bg-secondary bg-opacity-10 border rounded mb-3 overflow-hidden position-relative">
+                  <img src="path/to/profile3.jpg" alt="Elena Rostova" class="w-100 h-100 object-fit-cover" />
+                </div>
+                <h5 class="fw-bold mb-1">Fikri</h5>
+                <p class="text-muted small mb-0 uppercase tracking-wider">Interface Designer</p>
+              </div>
+            </div>
+            
+            <!-- Profile 4 -->
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <div class="ratio ratio-1x1 bg-secondary bg-opacity-10 border rounded mb-3 overflow-hidden position-relative">
+                  <img src="path/to/profile4.jpg" alt="Marcus Vance" class="w-100 h-100 object-fit-cover" />
+                </div>
+                <h5 class="fw-bold mb-1">Fahri</h5>
+                <p class="text-muted small mb-0 uppercase tracking-wider">Director of Operations</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 3: Topics -->
+      <section class="slide-section" id="slide-3">
+        <div class="w-100">
+          <h2 class="fw-extrabold mb-5">Topics</h2>
+          <div class="topic-container">
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+              <!-- Phase 1 -->
+              <div class="col">
+                <div class="bg-light border rounded-4 p-4 text-center h-100 topic-card d-flex flex-column align-items-center">
+                  <div class="d-inline-flex align-items-center justify-content-center bg-dark text-white rounded-circle fw-bold mb-3" style="width: 40px; height: 40px;">01</div>
+                  <h4 class="fw-bold">Pengenalan Dasar, Sejarah Singkat, dan Parameter Utama Baterai</h4>
+                  <p class="text-muted small mt-auto mb-0">Memahami fundamental, evolusi waktu, serta metrik performa utama.</p>
+                </div>
+              </div>
+              <!-- Phase 2 -->
+              <div class="col">
+                <div class="bg-light border rounded-4 p-4 text-center h-100 topic-card d-flex flex-column align-items-center">
+                  <div class="d-inline-flex align-items-center justify-content-center bg-dark text-white rounded-circle fw-bold mb-3" style="width: 40px; height: 40px;">02</div>
+                  <h4 class="fw-bold">Jenis Baterai</h4>
+                  <p class="text-muted small mt-auto mb-0">Klasifikasi sistem penyimpanan energi primer dan sekunder.</p>
+                </div>
+              </div>
+              <!-- Phase 3 -->
+              <div class="col">
+                <div class="bg-light border rounded-4 p-4 text-center h-100 topic-card d-flex flex-column align-items-center">
+                  <div class="d-inline-flex align-items-center justify-content-center bg-dark text-white rounded-circle fw-bold mb-3" style="width: 40px; height: 40px;">03</div>
+                  <h4 class="fw-bold">Struktur Fisik, Variasi Teknologi, dan Mekanisme Reaksi Baterai Lithium</h4>
+                  <p class="text-muted small mt-auto mb-0">Arsitektur internal dan reaksi elektrokimia pada sistem lithium modern.</p>
+                </div>
+              </div>
+              <!-- Phase 4 -->
+              <div class="col">
+                <div class="bg-light border rounded-4 p-4 text-center h-100 topic-card d-flex flex-column align-items-center">
+                  <div class="d-inline-flex align-items-center justify-content-center bg-dark text-white rounded-circle fw-bold mb-3" style="width: 40px; height: 40px;">04</div>
+                  <h4 class="fw-bold">Metode dan Karakteristik Pengisian Daya Baterai</h4>
+                  <p class="text-muted small mt-auto mb-0">Protokol pengisian dan sifat perilaku saat pemulihan energi.</p>
+                </div>
+              </div>
+              <!-- Phase 5 -->
+              <div class="col">
+                <div class="bg-light border rounded-4 p-4 text-center h-100 topic-card d-flex flex-column align-items-center">
+                  <div class="d-inline-flex align-items-center justify-content-center bg-dark text-white rounded-circle fw-bold mb-3" style="width: 40px; height: 40px;">05</div>
+                  <h4 class="fw-bold">Variasi Katoda, Implementasi Industri, dan Parameter Kondisi Baterai</h4>
+                  <p class="text-muted small mt-auto mb-0">Implementasi industri dan pengaruh faktor lingkungan pada kesehatan baterai.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- SLIDE 4: Pengertian Baterai dan Kategori -->
+      <section class="slide-section" id="slide-4">
+        <div class="w-100">
+          <div class="row align-items-center g-5 mb-5">
+            <div class="col-md-6">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Pengenalan Dasar, Sejarah Singkat, dan Parameter Utama Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">Pengertian Baterai</h2>
+              <p class="text-muted mb-0">Baterai adalah perangkat elektrokimia yang mengubah energi kimia secara langsung menjadi energi listrik. Karena listrik tidak dapat disimpan secara langsung (kecuali dalam kapasitor elektrolitik atau kumparan superkonduktor, yang keduanya memiliki keterbatasan teknis dan ekonomi yang signifikan), maka diperlukan bentuk penyimpanan tidak langsung.</p>
+            </div>
+            <div class="col-md-6">
+              <div class="bg-light rounded-4 border p-4 position-relative d-flex align-items-center justify-content-center" style="height: 380px;">
+                <svg class="position-absolute w-100 h-100 top-0 start-0" style="opacity: 0.1;">
+                  <defs>
+                    <pattern id="gridPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+                      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="black" stroke-width="1"/>
+                    </pattern>
+                  </defs>
+                  <rect width="100%" height="100%" fill="url(#gridPattern)" />
+                </svg>
+                <div class="text-center z-1">
+                  <div class="border border-dark border-2 rounded px-3 py-2 d-inline-block fw-mono mb-3 bg-white">Asset_Split_380</div>
+                  <p class="text-muted small mb-0">50% Layout Split Visual Placeholder</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-12">
+              <h2 class="display-5 fw-extrabold">Kategori Baterai</h2>
+            </div>
+          </div>
+
+          <div class="row g-0 rounded-4 overflow-hidden border">
+            <!-- Problem (Dark) -->
+            <div class="col-md-6 bg-dark text-white p-5 d-flex flex-column justify-content-between">
+              <div>
+                <h3 class="display-6 fw-bold mb-4 text-white">Baterai Primer</h3>
+                <p class="small mb-0" style="color: #86868b !important; line-height: 1.6;">Baterai primer adalah sebutan fisis untuk baterai yang hanya bisa digunakan satu kali saja dan tidak dapat diisi ulang (non-rechargeable). Ketika seluruh energi kimia di dalam baterai tersebut sudah habis diubah menjadi energi listrik, maka baterai ini akan mati dan harus dibuang.</p>
+              </div>
+            </div>
+            
+            <!-- Solution (Light) -->
+            <div class="col-md-6 bg-light text-dark p-5 d-flex flex-column justify-content-between">
+              <div>
+                <h3 class="display-6 fw-bold mb-4">Baterai Sekunder</h3>
+                <p class="small mb-0 text-muted" style="line-height: 1.6;">Baterai sekunder adalah sebutan untuk baterai yang dapat diisi ulang (rechargeable). Mereka memiliki kemampuan untuk mengalirkan dan menerima arus listrik beberapa kali sebelum kehilangan kapasitas penyimpanan energi mereka.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- SLIDE 5: Parameter -->
+      <section class="slide-section" id="slide-5">
+        <div class="w-100">
+          <div class="row align-items-center g-5">
+            <div class="col-md-6">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Pengenalan Dasar, Sejarah Singkat, dan Parameter Utama Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">Parameter Baterai</h2>
+              <p class="text-muted mb-0">Dalam pengoperasian baterai, terdapat beberapa parameter penting yang dibutuhkan oleh pengguna untuk memahami karakteristik dan performa baterai tersebut. Beberapa parameter utama yang sering digunakan dalam konteks baterai meliputi:</p>
+            </div>
+            <div class="col-md-6">
+              <div class="table-responsive">
+                <table class="table table-hover border-0 align-middle">
+                  <thead>
+                    <tr class="border-bottom border-dark border-2">
+                      <th scope="col" class="py-3 text-uppercase tracking-wider small fw-bold">Parameter</th>
+                      <th scope="col" class="py-3 text-uppercase tracking-wider small fw-bold text-end">Unit</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-bottom">
+                      <td class="py-3 fw-bold">Energi spesifik gravimetrik</td>
+                      <td class="py-3 text-muted text-end">Wh g<sup>-1</sup></td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td class="py-3 fw-bold">Kapasitas volumetrik dalam satuan</td>
+                      <td class="py-3 text-muted text-end">Ah cm<sup>-3</sup></td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td class="py-3 fw-bold">Kemampuan laju pelepasan/pengisian</td>
+                      <td class="py-3 text-muted text-end"></td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td class="py-3 fw-bold">Siklus pemakaian (masa pakai)</td>
+                      <td class="py-3 text-muted text-end"></td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <td class="py-3 fw-bold">tingkat pelepasan muatan sendiri (self-discharge)</td>
+                      <td class="py-3 text-muted text-end"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- SLIDE 6: Karakteristik Elemen Aktif -->
+      <section class="slide-section" id="slide-6">
+        <div class="w-100">
+          <div class="row align-items-center g-5 mb-5">
+            <div class="col-lg-8">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Pengenalan Dasar, Sejarah Singkat, dan Parameter Utama Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">Karakteristik Elemen Aktif</h2>
+              <p class="text-muted mb-0">Karakteristik elemen aktif merupakan faktor fundamental yang menentukan performa keseluruhan sistem. Elektroda positif (katoda) dan negatif (anoda) secara langsung mengontrol kapasitas energi baterai.</p>
+            </div>
+          </div>
+
+          <div class="row g-0 rounded-4 overflow-hidden border" style="min-height: 380px;">
+            <!-- Anoda (Dark) -->
+            <div class="col-md-6 bg-dark text-white p-5 d-flex flex-column justify-content-between">
+              <div>
+                <h3 class="display-6 fw-bold mb-4 text-white">Anoda (Elektroda Negatif)</h3>
+                <p class="small mb-0" style="color: #86868b !important; line-height: 1.6;">Anoda merupakan kutub negatif tempat terjadinya reaksi oksidasi atau pelepasan elektron saat baterai digunakan. Sifat elektrokimianya wajib memiliki potensial reduksi yang sangat rendah mendekati nol agar selisih tegangannya dengan katoda menjadi maksimal. Anoda umumnya dibuat dari material berbobot ringan untuk mengejar kepadatan energi yang tinggi per satuan berat, serta sangat memengaruhi kecepatan pengisian daya baterai melalui kelancaran proses difusi ion di dalam strukturnya.</p>
+              </div>
+            </div>
+            
+            <!-- Katoda (Light) -->
+            <div class="col-md-6 bg-light text-dark p-5 d-flex flex-column justify-content-between">
+              <div>
+                <h3 class="display-6 fw-bold mb-4">Katoda (Elektroda Positif)</h3>
+                <p class="small mb-0 text-muted" style="line-height: 1.6;">Katoda merupakan kutub positif tempat terjadinya reaksi reduksi atau penyerapan elektron saat baterai digunakan. Sifat elektrokimianya wajib memiliki potensial reduksi yang tinggi karena semakin tinggi nilainya, semakin besar tegangan listrik yang dihasilkan baterai. Di sisi lain, karena material penyusunnya berupa senyawa kompleks yang relatif berat, katoda menjadi penentu utama batas atas kapasitas penyimpanan sekaligus penentu stabilitas siklus hidup baterai saat diisi ulang.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- SLIDE 7: Sejarah Baterai -->
+      <section class="slide-section" id="slide-7">
+        <div class="w-100">
+          <!-- Bagian Atas: Deskripsi Sejarah -->
+          <div class="row mb-5">
+            <div class="col-12">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Pengenalan Dasar, Sejarah Singkat, dan Parameter Utama Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">Sejarah Baterai</h2>
+              <p class="text-muted mb-0">Sejarah baterai dimulai dari Baterai Baghdad (sekitar 250 SM–224 M), sebuah artefak kuno dari Irak yang diperkirakan digunakan untuk pelapisan listrik atau tujuan keagamaan, namun baterai modern baru lahir pada tahun 1800 ketika ilmuwan Italia Alessandro Volta menciptakan Voltaic Pile, Perangkat pertama yang menghasilkan arus listrik kontinu dari tumpukan seng, tembaga, dan kertas bergaram.</p>
+            </div>
+          </div>
+
+          <!-- Bagian Bawah: Sistem Tab (Tombol & Konten) -->
+          <div class="row g-4">
+            <div class="col-md-4" style="max-height: 450px; overflow-y: auto;">
+              <!-- Tabs List -->
+              <div class="d-flex flex-column gap-2" id="accent-tab-list">
+                <button class="btn btn-light text-start p-3 border-start border-dark border-3 rounded-0 active-accent-tab fw-bold w-100 btn-accent-tab" onclick="switchAccentTab(0)">
+                  250 SM - Tidak diketahui <br><small class="text-muted fw-normal">Suriah/Irak Kuno</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(1)">
+                  1749 - Benjamin Franklin <br><small class="text-muted fw-normal">Amerika Serikat</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(2)">
+                  1774 - Alessandro Volta <br><small class="text-muted fw-normal">Italia</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(3)">
+                  1779 - Alessandro Volta <br><small class="text-muted fw-normal">Italia</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(4)">
+                  1799/1800 - Alessandro Volta <br><small class="text-muted fw-normal">Italia</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(5)">
+                  1836 - John Frederic Daniell <br><small class="text-muted fw-normal">Inggris</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(6)">
+                  1859 - Gaston Planté <br><small class="text-muted fw-normal">Prancis</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(7)">
+                  1886 - Georges Leclanché <br><small class="text-muted fw-normal">Prancis</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(8)">
+                  1899 - Waldemar Jungner <br><small class="text-muted fw-normal">Swedia</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(9)">
+                  1914 - Thomas Edison <br><small class="text-muted fw-normal">Amerika Serikat</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(10)">
+                  1949 - Carl Gassner <br><small class="text-muted fw-normal">Jerman</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(11)">
+                  1950-an - Berbagai peneliti <br><small class="text-muted fw-normal">Internasional</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(12)">
+                  1970-an - M. Stanley Whittingham <br><small class="text-muted fw-normal">Inggris/Amerika</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(13)">
+                  1980-an - John B. Goodenough <br><small class="text-muted fw-normal">Amerika Serikat</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(14)">
+                  1991 - Sony & Asahi Kasei <br><small class="text-muted fw-normal">Jepang</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(15)">
+                  1998 - Columbia <br><small class="text-muted fw-normal">Amerika Serikat</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(16)">
+                  2010-an - John Goodenough & tim <br><small class="text-muted fw-normal">Amerika Serikat</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(17)">
+                  2010-an - Samsung & peneliti <br><small class="text-muted fw-normal">Korea Selatan</small>
+                </button>
+                <button class="btn btn-white text-start p-3 border-start border-transparent border-3 rounded-0 text-muted w-100 btn-accent-tab" onclick="switchAccentTab(18)">
+                  2020-an - Berbagai peneliti <br><small class="text-muted fw-normal">Internasional</small>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <!-- Tab Content Panels -->
+              <div class="p-4 bg-light rounded-4 border h-100 d-flex flex-column justify-content-center" id="accent-tab-content-container">
+                
+                <div class="accent-tab-panel active-panel">
+                  <h3 class="fw-bold mb-3">Baterai Baghdad</h3>
+                  <p class="text-muted">Wadah perunggu berisi batang besi berlapis tembaga, diisi cuka/anggur untuk menghasilkan listrik. Mungkin digunakan untuk pelapisan listrik, pengobatan, atau tujuan keagamaan.</p>
+                </div>
+                
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Istilah "Baterai"</h3>
+                  <p class="text-muted">Benjamin Franklin pertama kali menggunakan istilah "baterai" untuk menggambarkan rangkaian kapasitor kaca guna eksperimen listriknya. Istilah ini kemudian digunakan untuk sel elektrokimia yang disusun bersama.</p>
+                </div>
+                
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Electrophorus</h3>
+                  <p class="text-muted">Perangkat pertama yang memproduksi listrik statis, menjadi salah satu fondasi awal dalam penelitian energi listrik oleh Alessandro Volta.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Profesor di Universitas Pavia</h3>
+                  <p class="text-muted">Alessandro Volta diangkat menjadi profesor di Universitas Pavia, tempat ia melakukan riset intensif hingga akhirnya menemukan "tumpukan Volta".</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Voltaic Pile (Tumpukan Volta)</h3>
+                  <p class="text-muted">Baterai modern pertama yang menghasilkan arus listrik kontinu. Terbuat dari tumpukan piringan perak dan seng yang dipisahkan oleh kain yang direndam air garam.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Sel Daniell</h3>
+                  <p class="text-muted">Menggunakan pelat tembaga dan seng dengan larutan tembaga sulfat & seng sulfat. Teknologi ini menghasilkan arus yang jauh lebih stabil dan konsisten dibandingkan Voltaic Pile.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Baterai Asam Timbal (Pb-A)</h3>
+                  <p class="text-muted">Baterai isi ulang (sekunder) pertama di dunia. Masih menjadi pilihan utama untuk aplikasi otomotif dan starter mesin kendaraan hingga hari ini.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Baterai Leclanché</h3>
+                  <p class="text-muted">Menggunakan elektrolit amonium klorida. Digunakan secara luas untuk penerangan jalan dan merupakan baterai primer paling populer pada zamannya.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Baterai Nikel-Kadmium (NiCd)</h3>
+                  <p class="text-muted">Menawarkan kepadatan energi yang lebih tinggi dan kemampuan untuk diisi ulang, menjadi standar awal untuk elektronik portabel.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Baterai Nikel-Besi (NiFe)</h3>
+                  <p class="text-muted">Dikembangkan oleh Thomas Edison sebagai baterai penyimpanan yang sangat tahan lama untuk aplikasi industri dan kendaraan listrik awal.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Dry Cell (Sel Kering)</h3>
+                  <p class="text-muted">Inovasi baterai kering dengan elektrolit berbentuk pasta, membuatnya jauh lebih praktis dan portabel dibandingkan baterai sel basah.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Baterai Silver-Zinc</h3>
+                  <p class="text-muted">Teknologi yang menawarkan rasio energi terhadap berat yang sangat tinggi, dikembangkan terutama untuk aplikasi militer dan kedirgantaraan.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Baterai Lithium (Praktis)</h3>
+                  <p class="text-muted">Baterai lithium pertama yang dapat digunakan secara praktis, memanfaatkan sifat ringan dan potensial elektrokimia tinggi dari logam lithium.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Baterai Lithium-Ion (Konsep)</h3>
+                  <p class="text-muted">Revolusi baterai portabel dengan kepadatan energi tinggi. Goodenough menemukan bahwa LiCoO2 adalah material katoda yang sangat efisien.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Baterai Lithium-Ion (Komersial)</h3>
+                  <p class="text-muted">Baterai lithium-ion pertama yang dipasarkan secara massal oleh Sony, memicu ledakan teknologi ponsel pintar dan laptop dunia.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Dry Cell Columbia</h3>
+                  <p class="text-muted">Baterai sel kering pertama yang dipasarkan secara komersial di Amerika Serikat, membawa energi portabel ke tangan konsumen luas.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Baterai Solid-State</h3>
+                  <p class="text-muted">Menggunakan elektrolit padat menggantikan cairan, menawarkan tingkat keamanan yang lebih tinggi (tidak mudah terbakar) dan efisiensi energi yang lebih besar.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Baterai Graphene</h3>
+                  <p class="text-muted">Memanfaatkan material graphene untuk mencapai pengisian daya super cepat dan meningkatkan kepadatan energi secara signifikan.</p>
+                </div>
+
+                <div class="accent-tab-panel">
+                  <h3 class="fw-bold mb-3">Baterai Sodium-Ion</h3>
+                  <p class="text-muted">Alternatif masa depan yang lebih murah dan ramah lingkungan dibandingkan lithium-ion karena ketersediaan bahan baku sodium yang melimpah.</p>
+                </div>
+              </div>
+      </section>
+
+      <!-- SLIDE 8: Li-ion (Lithium-Ion) pada Smartphone -->
+      <section class="slide-section" id="slide-8">
+        <div class="w-100">
+          <div class="text-center mb-5">
+            <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Jenis Baterai</span>
+            <h2 class="display-5 fw-extrabold">Baterai ion litium (Li-ion)</h2>
+            <p class="text-muted mx-auto max-w-60mx">Baterai ion litium (biasa disebut Baterai Li-ion atau LIB) adalah salah satu anggota keluarga baterai isi ulang. Di dalam baterai ini, ion litium bergerak dari elektrode negatif ke elektrode positif saat baterai sedang digunakan, dan kembali saat diisi ulang. Baterai Li-ion memakai senyawa litium interkalasi sebagai bahan elektrodenya.</p>
+          </div>
+          <div class="row g-0 rounded-4 overflow-hidden border">
+            <div class="col-md-6 bg-light p-5">
+              <h3 class="fw-bold mb-4">Keunggulan</h3>
+              <div class="d-flex flex-column gap-3">
+                <div class="p-3 bg-white border rounded-3">
+                  <h6 class="fw-bold mb-1">Densitas Energi Tinggi</h6>
+                  <p class="small text-muted mb-0">Densitas energi mencapai 160–270 Wh/kg, Sehingga sangat cocok untuk perangkat yang memerlukan daya besar dalam ruang kecil.</p>
+                </div>
+                <div class="p-3 bg-white border rounded-3">
+                  <h6 class="fw-bold mb-1">Efisiensi Produksi</h6>
+                  <p class="small text-muted mb-0">Biaya produksi lebih rendah karena proses manufaktur yang sudah mapan dan material luas.</p>
+                </div>
+                <div class="p-3 bg-white border rounded-3">
+                  <h6 class="fw-bold mb-1">Teknologi Teruji</h6>
+                  <p class="small text-muted mb-0">Dikomersialkan sejak 1992 dan menjadi standar utama industri elektronik selama puluhan tahun.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 bg-dark text-white p-5">
+              <h3 class="fw-bold mb-4 text-white">Kelemahan</h3>
+              <div class="d-flex flex-column gap-3">
+                <div class="p-3 border border-secondary rounded-3">
+                  <h6 class="fw-bold mb-1 text-white">Self-Discharge</h6>
+                  <p class="small text-secondary mb-0">Cenderung kehilangan muatan seiring penuaan meski tidak sedang digunakan.</p>
+                </div>
+                <div class="p-3 border border-secondary rounded-3">
+                  <h6 class="fw-bold mb-1 text-white">Bentuk Fisik Kaku</h6>
+                  <p class="small text-secondary mb-0">Desain terbatas pada bentuk silindris/kotak, sulit untuk perangkat ultra-tipis.</p>
+                </div>
+                <div class="p-3 border border-secondary rounded-3">
+                  <h6 class="fw-bold mb-1 text-white">Risiko Kebocoran</h6>
+                  <p class="small text-secondary mb-0">Menggunakan elektrolit cair yang berpotensi bocor jika casing pelindung rusak.</p>
+                </div>
+              </div>
+              <div class="mt-auto pt-4 border-top border-secondary">
+                <span class="fw-mono small text-secondary">USE CASE: Laptop, Powerbank, Kamera Digital, Ponsel Generasi Lama</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 9: LiPo (Lithium Polymer) pada Smartphone -->
+      <section class="slide-section" id="slide-9">
+        <div class="w-100">
+          <div class="text-center mb-5">
+            <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Jenis Baterai</span>
+            <h2 class="display-5 fw-extrabold">Baterai polimer litium (LiPo)</h2>
+            <p class="text-muted mx-auto max-w-60mx">Baterai polimer litium adalah baterai yang dapat diisi ulang dari teknologi lithium-ion menggunakan elektrolit polimer sebagai pengganti elektrolit cair. Polimer semipadat (gel) konduktivitas tinggi membentuk elektrolit ini. Baterai ini memberikan energi spesifik yang lebih tinggi daripada jenis baterai litium lainnya dan digunakan dalam aplikasi yang mengutamakan bobot, seperti peranti bergerak, pesawat yang dikendalikan radio, dan beberapa kendaraan listrik. Sel LiPo mengikuti sejarah sel lithium-ion dan lithium-metal yang menjalani penelitian ekstensif selama 1980-an, mencapai tonggak penting dengan sel Li-ion silinder komersial pertama Sony pada tahun 1991. Setelah itu, bentuk kemasan lain berevolusi, termasuk kantong datar format.</p>
+          </div>
+          <div class="row g-0 rounded-4 overflow-hidden border">
+            <div class="col-md-6 bg-light p-5">
+              <h3 class="fw-bold mb-4">Keunggulan</h3>
+              <div class="d-flex flex-column gap-3">
+                <div class="p-3 bg-white border rounded-3">
+                  <h6 class="fw-bold mb-1">Ultra-Thin Design</h6>
+                  <p class="small text-muted mb-0">Dapat dibentuk sangat tipis untuk smartphone modern dan wearables.</p>
+                </div>
+                <div class="p-3 bg-white border rounded-3">
+                  <h6 class="fw-bold mb-1">Safety First</h6>
+                  <p class="small text-muted mb-0">Risiko kebocoran lebih rendah karena elektrolit gel tidak bersifat mengalir.</p>
+                </div>
+                <div class="p-3 bg-white border rounded-3">
+                  <h6 class="fw-bold mb-1">High Charge Rate</h6>
+                  <p class="small text-muted mb-0">Mendukung pengisian cepat hingga 2C.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 bg-dark text-white p-5">
+              <h3 class="fw-bold mb-4 text-white">Kelemahan</h3>
+              <div class="d-flex flex-column gap-3">
+                <div class="p-3 border border-secondary rounded-3">
+                  <h6 class="fw-bold mb-1 text-white">Biaya Produksi Tinggi</h6>
+                  <p class="small text-secondary mb-0">Harga produksi sekitar 30% lebih mahal dibandingkan dengan teknologi Li-ion.</p>
+                </div>
+                <div class="p-3 border border-secondary rounded-3">
+                  <h6 class="fw-bold mb-1 text-white">Densitas Energi Rendah</h6>
+                  <p class="small text-secondary mb-0">Kapasitas penyimpanan daya per bobot (130–200 Wh/kg) di bawah Li-ion.</p>
+                </div>
+                <div class="p-3 border border-secondary rounded-3">
+                  <h6 class="fw-bold mb-1 text-white">Sensitivitas Fisik</h6>
+                  <p class="small text-secondary mb-0">Sangat rentan terhadap kerusakan akibat benturan, tekukan, atau tusukan tajam.</p>
+                </div>
+              </div>
+              <div class="mt-auto pt-4 border-top border-secondary">
+                <span class="fw-mono small text-secondary">USE CASE: Drone, Wearables, Foldable Phones</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 10: Perbandingan Li-ion vs LiPo -->
+      <section class="slide-section" id="slide-10">
+        <div class="w-100 max-w-60mx mx-auto">
+          <h2 class="fw-extrabold text-center mb-5">Li-ion vs LiPo: Perbandingan Head-to-Head</h2>
+          <div class="table-responsive">
+            <table class="table table-hover border-0 align-middle">
+              <thead>
+                <tr class="border-bottom border-dark border-2">
+                  <th scope="col" class="py-3 text-uppercase small fw-bold">Parameter</th>
+                  <th scope="col" class="py-3 text-uppercase small fw-bold text-center">Li-ion</th>
+                  <th scope="col" class="py-3 text-uppercase small fw-bold text-center">LiPo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-bottom">
+                  <td class="py-3 fw-bold">Elektrolit</td>
+                  <td class="py-3 text-muted text-center">Cair</td>
+                  <td class="py-3 text-muted text-center">Gel / Padat</td>
+                </tr>
+                <tr class="border-bottom">
+                  <td class="py-3 fw-bold">Densitas Energi</td>
+                  <td class="py-3 text-muted text-center">160–270 Wh/kg</td>
+                  <td class="py-3 text-muted text-center">130–200 Wh/kg</td>
+                </tr>
+                <tr class="border-bottom">
+                  <td class="py-3 fw-bold">Fleksibilitas</td>
+                  <td class="py-3 text-muted text-center">Terbatas (Kaku)</td>
+                  <td class="py-3 text-muted text-center">Sangat Fleksibel</td>
+                </tr>
+                <tr class="border-bottom">
+                  <td class="py-3 fw-bold">Laju Pengisian</td>
+                  <td class="py-3 text-muted text-center">0,5 – 1C</td>
+                  <td class="py-3 text-muted text-center">Hingga 2C</td>
+                </tr>
+                <tr class="border-bottom">
+                  <td class="py-3 fw-bold">Biaya Produksi</td>
+                  <td class="py-3 text-muted text-center">Lebih Rendah</td>
+                  <td class="py-3 text-muted text-center">~30% Lebih Mahal</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mt-5 p-4 bg-light rounded-3 text-center border">
+            <p class="mb-0 small fw-bold">KESIMPULAN: Li-ion menang pada efisiensi biaya dan kapasitas, sedangkan LiPo mendominasi desain tipis dan keamanan tinggi.</p>
+          </div>
+        </div>
+      </section>
+    
+      
+
+      <!-- SLIDE 11: NMC -->
+      <section class="slide-section" id="slide-11">
+        <div class="w-100">
+          <div class="text-center mb-5">
+            <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Jenis Baterai</span>
+            <h2 class="display-5 fw-extrabold mb-3">NMC (Nickel Manganese Cobalt)</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100 bg-light">
+                <h5 class="fw-bold mb-3 border-bottom pb-2 text-uppercase small">Definisi</h5>
+                <div class="mb-3"><span class="badge bg-dark w-100 text-start p-2">Densitas Energi: 170 Wh/kg</span></div>
+                <div class="mb-3"><span class="badge bg-secondary w-100 text-start p-2">Tegangan: 3,8–4,0 V</span></div>
+                <div class="mb-3"><span class="badge border border-dark text-dark w-100 text-start p-2">Anoda: Grafit</span></div>
+                <p class="xsmall text-muted mt-auto mb-0 fw-mono">Contoh: Nissan Leaf, Hyundai Ioniq, Porsche Taycan.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100">
+                <h5 class="fw-bold text-success mb-3">Kelebihan</h5>
+                <ul class="small text-muted ps-3">
+                  <li class="mb-2">Jarak tempuh sangat jauh.</li>
+                  <li class="mb-2">Performa cuaca dingin sangat baik.</li>
+                  <li>Mendukung Fast Charging DC.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100 bg-dark text-white">
+                <h5 class="fw-bold text-danger mb-3">Kekurangan</h5>
+                <ul class="small text-secondary ps-3">
+                  <li class="mb-2">Biaya tinggi (Kandungan Kobalt).</li>
+                  <li>Saran pengisian harian 80%.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 12: NCA -->
+      <section class="slide-section" id="slide-12">
+        <div class="w-100">
+          <div class="text-center mb-5">
+            <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Jenis Baterai</span>
+            <h2 class="display-5 fw-extrabold mb-3">NCA (Nickel Cobalt Aluminium)</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100 bg-light">
+                <h5 class="fw-bold mb-3 border-bottom pb-2 text-uppercase small">Definisi</h5>
+                <div class="mb-3"><span class="badge bg-dark w-100 text-start p-2">Densitas Energi: 140 Wh/kg</span></div>
+                <div class="mb-3"><span class="badge bg-secondary w-100 text-start p-2">Tegangan: 3,65 V</span></div>
+                <div class="mb-3"><span class="badge border border-dark text-dark w-100 text-start p-2">Anoda: Grafit</span></div>
+                <p class="xsmall text-muted mt-auto mb-0 fw-mono">Contoh: Tesla Model S, Model X, Model 3 (Panasonic).</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100">
+                <h5 class="fw-bold text-success mb-3">Kelebihan</h5>
+                <ul class="small text-muted ps-3">
+                  <li class="mb-2">Jangkauan kendaraan maksimal.</li>
+                  <li>Sangat stabil pada kecepatan tinggi.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100 bg-dark text-white">
+                <h5 class="fw-bold text-danger mb-3">Kekurangan</h5>
+                <ul class="small text-secondary ps-3">
+                  <li class="mb-2">Sangat sensitif terhadap panas.</li>
+                  <li>Toleransi overcharge rendah.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 13: LFP -->
+      <section class="slide-section" id="slide-13">
+        <div class="w-100">
+          <div class="text-center mb-5">
+            <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Jenis Baterai</span>
+            <h2 class="display-5 fw-extrabold mb-3">LFP (Lithium Iron Phosphate)</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100 bg-light">
+                <h5 class="fw-bold mb-3 border-bottom pb-2 text-uppercase small">Definisi</h5>
+                <div class="mb-3"><span class="badge bg-dark w-100 text-start p-2">Densitas Energi: 100 Wh/kg</span></div>
+                <div class="mb-3"><span class="badge bg-secondary w-100 text-start p-2">Tegangan: 3,2 V</span></div>
+                <div class="mb-3"><span class="badge border border-dark text-dark w-100 text-start p-2">Anoda: Grafit</span></div>
+                <p class="xsmall text-muted mt-auto mb-0 fw-mono">Contoh: Tesla Model 3 RWD, Lini BYD, MG4 Standard.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100">
+                <h5 class="fw-bold text-success mb-3">Kelebihan</h5>
+                <ul class="small text-muted ps-3">
+                  <li class="mb-2">Paling aman (Kebal Thermal Runaway).</li>
+                  <li class="mb-2">Boleh diisi 100% setiap hari.</li>
+                  <li>Siklus hidup (Masa pakai) sangat lama.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100 bg-dark text-white">
+                <h5 class="fw-bold text-danger mb-3">Kekurangan</h5>
+                <ul class="small text-secondary ps-3">
+                  <li class="mb-2">Berat (Densitas energi rendah).</li>
+                  <li>Performa menurun drastis di suhu < 0°C.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 14: Solid-State -->
+      <section class="slide-section" id="slide-14">
+        <div class="w-100">
+          <div class="text-center mb-5">
+            <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Jenis Baterai</span>
+            <h2 class="display-5 fw-extrabold mb-3">Solid-State Battery</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100 bg-light">
+                <h5 class="fw-bold mb-3 border-bottom pb-2 text-uppercase small">Definisi (Potensial)</h5>
+                <div class="mb-3"><span class="badge bg-dark w-100 text-start p-2">Densitas Energi: 315–450 Wh/kg</span></div>
+                <div class="mb-3"><span class="badge bg-secondary w-100 text-start p-2">Status: Pengembangan</span></div>
+                <div class="mb-3"><span class="badge border border-dark text-dark w-100 text-start p-2">Anoda: Silikon / Li-Metal</span></div>
+                <p class="xsmall text-muted mt-auto mb-0 fw-mono">Target: Akhir 2020-an (Toyota, Samsung SDI).</p>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="row g-4 h-100">
+                <div class="col-md-6">
+                  <div class="card-wireframe p-4 h-100">
+                    <h5 class="fw-bold text-success mb-3">Kelebihan</h5>
+                    <ul class="small text-muted ps-3">
+                      <li class="mb-2">Tidak mudah terbakar (Tanpa cairan).</li>
+                      <li class="mb-2">Pengisian daya jauh lebih cepat.</li>
+                      <li>Kapasitas 2x lipat baterai saat ini.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-wireframe p-4 h-100 bg-dark text-white">
+                    <h5 class="fw-bold text-danger mb-3">Tantangan</h5>
+                    <ul class="small text-secondary ps-3">
+                      <li class="mb-2">Biaya produksi masih sangat tinggi.</li>
+                      <li>Skalabilitas industri belum tercapai.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 15: Sodium-Ion -->
+      <section class="slide-section" id="slide-15">
+        <div class="w-100">
+          <div class="text-center mb-5">
+            <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Jenis Baterai</span>
+            <h2 class="display-5 fw-extrabold mb-3">Sodium-Ion (Na-ion)</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100 bg-light">
+                <h5 class="fw-bold mb-3 border-bottom pb-2 text-uppercase small">Definisi</h5>
+                <div class="mb-3"><span class="badge bg-dark w-100 text-start p-2">Densitas Energi: ~160 Wh/kg</span></div>
+                <div class="mb-3"><span class="badge bg-dark w-100 text-start p-2">Siklus: 15.000+ Cycle</span></div>
+                <div class="mb-3"><span class="badge bg-secondary w-100 text-start p-2">Operasi: -40°C - 70°C</span></div>
+                <div class="mb-3"><span class="badge border border-dark text-dark w-100 text-start p-2">Anoda: Karbon Keras</span></div>
+                <p class="xsmall text-muted mt-auto mb-0 fw-mono">Update: Massal pertama 2026 (CATL & Changan).</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100">
+                <h5 class="fw-bold text-success mb-3">Kelebihan</h5>
+                <ul class="small text-muted ps-3">
+                  <li class="mb-2">Bahan baku melimpah (Garam).</li>
+                  <li class="mb-2">Sangat tangguh di cuaca dingin.</li>
+                  <li>Jauh lebih murah dari Lithium.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100 bg-dark text-white">
+                <h5 class="fw-bold text-danger mb-3">Kekurangan</h5>
+                <ul class="small text-secondary ps-3">
+                  <li>Densitas energi masih di bawah NMC.</li>
+                  <li>Ekosistem produksi baru mulai berkembang.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 16: Ringkasan Perbandingan -->
+      <section class="slide-section" id="slide-16">
+        <div class="w-100">
+          <h2 class="fw-extrabold text-center mb-5 text-uppercase">Ringkasan Perbandingan Baterai EV</h2>
+          <div class="table-responsive">
+            <table class="table table-hover border-0 align-middle small">
+              <thead class="border-bottom border-dark border-2 text-uppercase fw-bold">
+                <tr>
+                  <th class="py-3">Parameter</th>
+                  <th class="text-center">NMC</th>
+                  <th class="text-center">NCA</th>
+                  <th class="text-center">LFP</th>
+                  <th class="text-center">Solid-State*</th>
+                  <th class="text-center">Na-ion</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-bottom text-muted">
+                  <td class="fw-bold py-3 text-dark">Densitas Energi (Wh/kg)</td>
+                  <td class="text-center">170</td><td class="text-center">140</td><td class="text-center">100</td><td class="text-center">~400</td><td class="text-center">~165</td>
+                </tr>
+                <tr class="border-bottom text-muted">
+                  <td class="fw-bold py-3 text-dark">Keamanan</td>
+                  <td class="text-center">Moderat</td><td class="text-center">Moderat</td><td class="text-center">Sangat Tinggi</td><td class="text-center">Tinggi</td><td class="text-center">Tinggi</td>
+                </tr>
+                <tr class="border-bottom text-muted">
+                  <td class="fw-bold py-3 text-dark">Biaya</td>
+                  <td class="text-center">Menengah</td><td class="text-center">Tinggi</td><td class="text-center">Rendah</td><td class="text-center">Tinggi</td><td class="text-center">Sangat Rendah</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 17: Komponen Penyusun Baterai Li-ion -->
+      <section class="slide-section" id="slide-17">
+        <div class="w-100">
+          <div class="row mb-5">
+            <div class="col-md-6">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Struktur Fisik, Variasi Teknologi, dan Mekanisme Reaksi Baterai Lithium</span>
+              <h2 class="display-5 fw-extrabold mb-4">Komponen Penyusun Baterai Li-ion</h2>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <h6 class="fw-bold text-uppercase small text-muted mb-3">01. Kolektor Arus</h6>
+                <p class="small mb-0 text-muted">Tembaga (Anoda) & Aluminium (Katoda). Berfungsi mengalirkan elektron ke sirkuit eksternal.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <h6 class="fw-bold text-uppercase small text-muted mb-3">02. Elektroda Negatif</h6>
+                <p class="small mb-0 text-muted"><b>Anoda:</b> Umumnya karbon grafit. Tempat ion Li⁺ disimpan saat pengisian.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <h6 class="fw-bold text-uppercase small text-muted mb-3">03. Elektroda Positif</h6>
+                <p class="small mb-0 text-muted"><b>Katoda:</b> Oksida logam (LiCoO₂). Sumber ion Li⁺ saat pengisian.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <h6 class="fw-bold text-uppercase small text-muted mb-3">04. Separator Berpori</h6>
+                <p class="small mb-0 text-muted">Lapisan tipis pencegah korsleting yang tetap membolehkan ion Li⁺ melewatinya.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <h6 class="fw-bold text-uppercase small text-muted mb-3">05. Elektrolit</h6>
+                <p class="small mb-0 text-muted">"Jalan tol" cair bagi ion Li⁺ untuk berpindah antar elektroda.</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-wireframe p-4 h-100 bg-light">
+                <h6 class="fw-bold text-uppercase small mb-3">Prinsip Dasar</h6>
+                <p class="small mb-0">Elektron lewat kabel (listrik), Ion Li⁺ lewat elektrolit (dalam sel).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 18: Kondisi Awal Sel -->
+      <section class="slide-section" id="slide-18">
+        <div class="w-100 max-w-60mx mx-auto">
+          <div class="row mb-5">
+            <div class="col-md-12">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Struktur Fisik, Variasi Teknologi, dan Mekanisme Reaksi Baterai Lithium</span>
+              <h2 class="display-5 fw-extrabold mb-4">Kondisi Awal Sel Baru</h2>
+            </div>
+          </div>
+          <div class="row g-4 align-items-stretch">
+            <div class="col-md-6">
+              <div class="bg-light border rounded-4 p-4 h-100">
+                <h5 class="fw-bold">Katoda (+)</h5>
+                <p class="small text-muted mb-0">Penuh dengan ion Li⁺ dalam bentuk senyawa <b>Li₁CoO₂</b>.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="bg-light border rounded-4 p-4 h-100">
+                <h5 class="fw-bold">Anoda (-)</h5>
+                <p class="small text-muted mb-0">Kosong, hanya berupa <b>Karbon (C)</b> tanpa ion Li⁺.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 p-4 border rounded-4 bg-dark text-white text-center">
+            <h5 class="fw-bold mb-2">Analogi Air</h5>
+            <p class="small mb-0 text-secondary">Katoda adalah wadah penuh air, Anoda adalah gelas kosong. Pengisian daya adalah proses memindahkan air tersebut.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 19: Proses Pengisian (Charging) -->
+      <section class="slide-section" id="slide-19">
+        <div class="w-100">
+          <div class="row align-items-center g-5">
+            <div class="col-md-6">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Struktur Fisik, Variasi Teknologi, dan Mekanisme Reaksi Baterai Lithium</span>
+              <h2 class="display-5 fw-extrabold mb-4">Proses Pengisian (Charging)</h2>
+              <ul class="small text-muted ps-3">
+                <li class="mb-3">Ion Li⁺ lepas dari katoda, melewati elektrolit menuju anoda.</li>
+                <li>Elektron mengalir dari katoda melalui kabel menuju anoda.</li>
+              </ul>
+              <div class="mt-4 p-3 bg-light rounded-3 border">
+                <p class="small mb-0"><b>Bahasa Awam:</b> Ion lithium "pindah rumah" ke anoda sambil mendorong elektron melewati kabel.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-wireframe p-4 bg-dark text-white">
+                <h5 class="fw-bold text-warning mb-3">Reaksi Kimia</h5>
+                <div class="mb-3">
+                  <span class="d-block small text-secondary">Katoda (Oksidasi):</span>
+                  <code class="text-white">Li₁CoO₂ → Li₁₋ₓCoO₂ + xLi⁺ + xe⁻</code>
+                </div>
+                <div>
+                  <span class="d-block small text-secondary">Anoda (Reduksi):</span>
+                  <code class="text-white">C + xLi⁺ + xe⁻ → LiₓC₆</code>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 20: Proses Pelepasan (Discharging) -->
+      <section class="slide-section" id="slide-20">
+        <div class="w-100">
+          <div class="row align-items-center g-5 flex-md-row-reverse">
+            <div class="col-md-6">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Struktur Fisik, Variasi Teknologi, dan Mekanisme Reaksi Baterai Lithium</span>
+              <h2 class="display-5 fw-extrabold mb-4">Proses Pelepasan (Discharging)</h2>
+              <ul class="small text-muted ps-3">
+                <li class="mb-3">Ion Li⁺ bergerak balik dari anoda menuju katoda.</li>
+                <li>Elektron mengalir melalui sirkuit luar—inilah arus listrik yang kita gunakan.</li>
+              </ul>
+              <div class="mt-4 p-3 bg-light rounded-3 border">
+                <p class="small mb-0"><b>Bahasa Awam:</b> Ion lithium "pulang ke rumah" semula, perjalanannya menggerakkan perangkat kita.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-wireframe p-4 bg-white border-dark border-2">
+                <h5 class="fw-bold mb-3">Mekanisme Kerja</h5>
+                <div class="mb-3 p-3 bg-light rounded">
+                  <span class="fw-bold d-block small">Anoda:</span>
+                  <span class="small">Melepas ion Li⁺ (Oksidasi)</span>
+                </div>
+                <div class="p-3 bg-light rounded">
+                  <span class="fw-bold d-block small">Katoda:</span>
+                  <span class="small">Menerima kembali ion Li⁺ (Reduksi)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 21: Reaksi Elektrokimia Sel -->
+      <section class="slide-section" id="slide-21">
+        <div class="w-100 max-w-60mx mx-auto">
+          <div class="row mb-5">
+            <div class="col-md-12">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Struktur Fisik, Variasi Teknologi, dan Mekanisme Reaksi Baterai Lithium</span>
+              <h2 class="display-5 fw-extrabold mb-4">Reaksi Elektrokimia Sel</h2>
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-3">
+            <div class="p-4 bg-light border-start border-4 border-dark rounded-3">
+              <h6 class="fw-bold mb-1">Reaksi Anoda (-)</h6>
+              <code class="fs-5">xLi⁺ + xe⁻ + 6C ⇆ LiₓC₆</code>
+            </div>
+            <div class="p-4 bg-light border-start border-4 border-dark rounded-3">
+              <h6 class="fw-bold mb-1">Reaksi Katoda (+)</h6>
+              <code class="fs-5">LiCoO₂ ⇆ Li₁₋ₓCoO₂ + xLi⁺ + xe⁻</code>
+            </div>
+            <div class="p-4 bg-dark text-white rounded-3 shadow-lg">
+              <h6 class="fw-bold mb-1 text-secondary text-uppercase small">Reaksi Keseluruhan</h6>
+              <code class="fs-4 text-white">LiCoO₂ + 6C ⇆ Li₁₋ₓCoO₂ + LiₓC₆</code>
+            </div>
+          </div>
+          <p class="mt-4 text-center text-muted small">Tanda panah <b>⇆</b> menunjukkan reaksi dapat berbalik arah (rechargeable).</p>
+        </div>
+      </section>
+
+      <!-- SLIDE 22: Metode Pengisian Constant Current (CC) -->
+      <section class="slide-section" id="slide-22">
+        <div class="w-100">
+          <div class="row mb-5">
+            <div class="col-md-7">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Metode dan Karakteristik Pengisian Daya Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">Constant Current (CC)</h2>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="card-wireframe p-4 h-100">
+                <h6 class="fw-bold text-uppercase small text-muted mb-3">Karakteristik Grafik</h6>
+                <ul class="small ps-3 mb-0">
+                  <li class="mb-2"><b>Arus (I):</b> Garis lurus horizontal (Konstan).</li>
+                  <li><b>Tegangan (V):</b> Naik bertahap seiring pengisian.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-wireframe p-4 h-100 bg-light">
+                <h6 class="fw-bold text-uppercase small mb-2 text-success">Kelebihan</h6>
+                <p class="xsmall mb-0 text-muted">Sederhana, biaya rendah, andal, dan hasil pengisian dapat diprediksi.</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card-wireframe p-4 h-100 bg-dark text-white">
+                <h6 class="fw-bold text-uppercase small mb-2 text-danger">Risiko</h6>
+                <p class="xsmall mb-0 text-secondary">Berpotensi <i>overcharge</i> berbahaya jika arus tetap tinggi saat baterai penuh.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 p-3 bg-light rounded-3 border-start border-3 border-dark">
+            <p class="small mb-0"><b>Bahasa Awam:</b> Seperti mengisi ember dengan aliran selang yang tidak bisa diatur. Cepat di awal, tapi bisa meluap jika tidak diawasi saat hampir penuh.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 23: Metode Pengisian Constant Voltage (CV) -->
+      <section class="slide-section" id="slide-23">
+        <div class="w-100">
+          <div class="row mb-5">
+            <div class="col-md-7">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Metode dan Karakteristik Pengisian Daya Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">Constant Voltage (CV)</h2>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="card-wireframe p-4 h-100">
+                <h6 class="fw-bold text-uppercase small text-muted mb-3">Karakteristik Grafik</h6>
+                <ul class="small ps-3 mb-0">
+                  <li class="mb-2"><b>Tegangan (V):</b> Garis lurus horizontal (Konstan).</li>
+                  <li><b>Arus (I):</b> Tinggi di awal, turun secara eksponensial.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-wireframe p-4 h-100 bg-light">
+                <h6 class="fw-bold text-uppercase small mb-2">Kelemahan & Tantangan</h6>
+                <p class="xsmall mb-2 text-muted">&bull; Arus awal ekstrem dapat merusak sel jika baterai sangat kosong.</p>
+                <p class="xsmall mb-0 text-muted">&bull; Waktu pengisian total lama karena arus melambat di akhir.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 p-3 bg-light rounded-3 border-start border-3 border-dark">
+            <p class="small mb-0"><b>Bahasa Awam:</b> Seperti meniup balon dengan tekanan tetap. Udara masuk cepat saat kempes, tapi makin lama makin sulit dan melambat saat hampir penuh.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 24: Metode Pengisian Tapper-Current -->
+      <section class="slide-section" id="slide-24">
+        <div class="w-100">
+          <div class="row mb-5">
+            <div class="col-md-7">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Metode dan Karakteristik Pengisian Daya Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">Tapper-Current</h2>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-8">
+              <div class="card-wireframe p-4 h-100">
+                <h6 class="fw-bold text-uppercase small text-muted mb-3">Sifat Khas: "Irregular"</h6>
+                <p class="small text-muted mb-0">Penurunan arus tidak mengikuti pola matematis pasti (seperti eksponensial), melainkan bergantung pada dinamika sel dan alat pengisi.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-wireframe p-4 h-100 bg-dark text-white">
+                <h6 class="fw-bold text-uppercase small mb-2 text-secondary">Kelemahan Kontrol</h6>
+                <p class="xsmall mb-0 text-secondary">Sulit diprediksi dan memerlukan kalibrasi tegangan batas yang sangat akurat agar tidak <i>overcharge</i>.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 p-3 bg-light rounded-3 border-start border-3 border-dark">
+            <p class="small mb-0"><b>Bahasa Awam:</b> Seperti mengisi kolam dengan pompa besar di awal, lalu dikecilkan manual. Berhenti saat ketinggian air (tegangan) menyentuh sensor batas.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 25: Metode CCCV -->
+      <section class="slide-section" id="slide-25">
+        <div class="w-100">
+          <div class="row mb-5">
+            <div class="col-md-12">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Metode dan Karakteristik Pengisian Daya Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">CC – CV (Standard Method)</h2>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="card-wireframe p-4 bg-light">
+                <h5 class="fw-bold small mb-3">Fase 1: Constant Current (CC)</h5>
+                <ul class="xsmall text-muted ps-3 mb-0">
+                  <li class="mb-2">Arus dijaga konstan.</li>
+                  <li class="mb-2">Tegangan naik secara linier.</li>
+                  <li>Berhenti saat menyentuh batas tegangan atas.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card-wireframe p-4 bg-dark text-white">
+                <h5 class="fw-bold small mb-3 text-secondary">Fase 2: Constant Voltage (CV)</h5>
+                <ul class="xsmall text-secondary ps-3 mb-0">
+                  <li class="mb-2">Tegangan dijaga konstan.</li>
+                  <li class="mb-2">Arus turun secara eksponensial.</li>
+                  <li>Selesai saat arus mencapai nilai minimum (5-10%).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 p-4 border rounded-4 bg-white shadow-sm">
+            <div class="row align-items-center">
+              <div class="col-md-8">
+                <h6 class="fw-bold mb-1">Kenapa Paling Direkomendasikan?</h6>
+                <p class="small text-muted mb-0">Menggabungkan kecepatan fase CC dan keamanan fase CV. Risiko panas berlebih dan <i>overcharge</i> sangat minim.</p>
+              </div>
+              <div class="col-md-4 text-end">
+                <span class="badge bg-dark px-3 py-2">Gold Standard for Li-ion</span>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 p-3 bg-light rounded-3 border-start border-3 border-dark">
+            <p class="small mb-0"><b>Bahasa Awam:</b> Seperti mengisi bensin: pompa kencang sampai tangki hampir penuh, lalu pompa pelan-pelan sampai benar-benar penuh tanpa tumpah.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 26: Spesifikasi Variasi Katoda Li-ion -->
+      <section class="slide-section" id="slide-26">
+        <div class="w-100">
+          <div class="row mb-5">
+            <div class="col-md-12">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Variasi Katoda, Implementasi Industri, dan Parameter Kondisi Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">Spesifikasi Variasi Katoda Li-ion</h2>
+            </div>
+          </div>
+          <div class="table-responsive mb-5">
+            <table class="table table-hover border-0 align-middle">
+              <thead>
+                <tr class="border-bottom border-dark border-2">
+                  <th scope="col" class="py-3 text-uppercase small fw-bold">Singkatan</th>
+                  <th scope="col" class="py-3 text-uppercase small fw-bold">Material Katoda</th>
+                  <th scope="col" class="py-3 text-uppercase small fw-bold text-center">Tegangan (V)</th>
+                  <th scope="col" class="py-3 text-uppercase small fw-bold text-center">Densitas (Wh/kg)</th>
+                </tr>
+              </thead>
+              <tbody class="small">
+                <tr class="border-bottom"><td><b>LFP</b></td><td>LiFePO₄</td><td class="text-center">3,2</td><td class="text-center">100</td></tr>
+                <tr class="border-bottom"><td><b>NCA</b></td><td>LiNi₀.₈Co₀.₁₅Al₀.₀₅O₂</td><td class="text-center">3,65</td><td class="text-center">140</td></tr>
+                <tr class="border-bottom"><td><b>NMC</b></td><td>LiNiₓMnyCo₁₋ₓ₋yO₂</td><td class="text-center">3,8 – 4,0</td><td class="text-center">170</td></tr>
+                <tr class="border-bottom"><td><b>LCO</b></td><td>LiCoO₂</td><td class="text-center">3,7 – 3,9</td><td class="text-center">140</td></tr>
+                <tr class="border-bottom"><td><b>LNO</b></td><td>LiNiO₂</td><td class="text-center">3,6</td><td class="text-center">150</td></tr>
+                <tr class="border-bottom"><td><b>LMO</b></td><td>LiMn₂O₄</td><td class="text-center">4,0</td><td class="text-center">120</td></tr>
+                <tr class="border-bottom"><td><b>LNM</b></td><td>LiNi₁/₂Mn₃/₂O₄</td><td class="text-center">4,8</td><td class="text-center">140</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="row g-3">
+            <div class="col-md-4"><div class="p-3 bg-light rounded-3 border-start border-3 border-dark small"><b>NMC:</b> Densitas tertinggi (170 Wh/kg), dominan di EV modern.</div></div>
+            <div class="col-md-4"><div class="p-3 bg-light rounded-3 border-start border-3 border-dark small"><b>LFP:</b> Densitas terendah, namun paling aman & tahan lama.</div></div>
+            <div class="col-md-4"><div class="p-3 bg-light rounded-3 border-start border-3 border-dark small"><b>LNM:</b> Tegangan tertinggi (4,8V), namun belum populer secara industri.</div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 27: Data Implementasi pada EV -->
+      <section class="slide-section" id="slide-27">
+        <div class="w-100">
+          <div class="row mb-5">
+            <div class="col-md-12">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Variasi Katoda, Implementasi Industri, dan Parameter Kondisi Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">Implementasi pada Kendaraan Listrik (EV)</h2>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <h6 class="fw-bold text-uppercase small text-muted mb-3">NCA (Panasonic &rarr; Tesla)</h6>
+                <p class="small mb-1 text-muted">Sel 18650 (162 Wh/kg) &rarr; Tesla Model S (593 km)</p>
+                <p class="small mb-0 text-muted">Sel 2170 (168 Wh/kg) &rarr; Tesla Model 3 (530 km)</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <h6 class="fw-bold text-uppercase small text-muted mb-3">LFP (CATL &rarr; Tesla / BYD)</h6>
+                <p class="small mb-1 text-muted">Tesla Model 3 Standard (65 Wh/kg &rarr; 506 km)</p>
+                <p class="small mb-0 text-muted">BYD Blade &rarr; BYD Han EV (Keamanan Tinggi)</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-wireframe p-4 h-100">
+                <h6 class="fw-bold text-uppercase small text-muted mb-3">NMC-622 (LG Chemical &rarr; Berbagai Merek)</h6>
+                <p class="small mb-1 text-muted">Hyundai Ioniq-e (149 Wh/kg) & Kona-e (130 Wh/kg)</p>
+                <p class="small mb-0 text-muted">Porsche Taycan (149 Wh/kg &rarr; 470 km)</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-wireframe p-4 h-100 bg-light">
+                <h6 class="fw-bold text-uppercase small mb-3">Kesimpulan Strategis</h6>
+                <p class="small mb-0 text-muted">Densitas energi tinggi tidak selalu berarti jarak tempuh lebih jauh; kapasitas total pak baterai (kWh) dan efisiensi kendaraan sangat menentukan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 28: Formulasi Parameter Kondisi Baterai -->
+      <section class="slide-section" id="slide-28">
+        <div class="w-100">
+          <div class="row mb-4">
+            <div class="col-md-12 text-center">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Variasi Katoda, Implementasi Industri, dan Parameter Kondisi Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">Formulasi Parameter Kondisi Baterai</h2>
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="p-3 border rounded-4 h-100 bg-light">
+                <h6 class="fw-bold small mb-2">1. Open-Circuit Voltage (OCV)</h6>
+                <code class="d-block mb-2 py-2 text-center bg-white rounded border small text-dark">V<sub>oc</sub> = (&mu;<sub>Li</sub><sup>(+)</sup> - &mu;<sub>Li</sub><sup>(-)</sup>) / nF</code>
+                <p class="xsmall text-muted mb-0">Tegangan terukur saat sirkuit terbuka (tidak digunakan).</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 border rounded-4 h-100 bg-light">
+                <h6 class="fw-bold small mb-2">2. Kapasitas (C)</h6>
+                <code class="d-block mb-2 py-2 text-center bg-white rounded border small text-dark">C = I<sub>pengosongan</sub> &times; t<sub>pengosongan</sub></code>
+                <p class="xsmall text-muted mb-0">Hasil kali arus keluar dengan durasi aliran (Ah).</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 border rounded-4 h-100 bg-light">
+                <h6 class="fw-bold small mb-2">3. C-rate</h6>
+                <code class="d-block mb-2 py-2 text-center bg-white rounded border small text-dark">C<sub>rate</sub> = C / t<sub>pengosongan</sub></code>
+                <p class="xsmall text-muted mb-0">Laju pengisian/pengosongan relatif terhadap kapasitas nominal.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 border rounded-4 h-100 bg-dark text-white">
+                <h6 class="fw-bold small mb-2 text-secondary">4. State of Charge (SOC)</h6>
+                <code class="d-block mb-2 py-2 text-center bg-secondary bg-opacity-25 text-white rounded border-secondary border small">SOC = C<sub>tersisa</sub> / C<sub>nominal</sub></code>
+                <p class="xsmall text-secondary mb-0">Persentase "sisa bensin" atau daya dalam baterai.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 border rounded-4 h-100 bg-dark text-white">
+                <h6 class="fw-bold small mb-2 text-secondary">5. Depth of Discharge (DOD)</h6>
+                <code class="d-block mb-2 py-2 text-center bg-secondary bg-opacity-25 text-white rounded border-secondary border small">DOD = 1 - SOC</code>
+                <p class="xsmall text-secondary mb-0">Menunjukkan seberapa dalam baterai telah dikosongkan.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3 border rounded-4 h-100 bg-dark text-white">
+                <h6 class="fw-bold small mb-2 text-secondary">6. State of Health (SOH)</h6>
+                <code class="d-block mb-2 py-2 text-center bg-secondary bg-opacity-25 text-white rounded border-secondary border small">SOH = C<sub>terukur</sub> / C<sub>nominal</sub></code>
+                <p class="xsmall text-secondary mb-0">Mengukur kesehatan baterai dibanding kondisi baru.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 29: Karakteristik Hambatan Dalam -->
+      <section class="slide-section" id="slide-29">
+        <div class="w-100">
+          <div class="row mb-5">
+            <div class="col-md-12">
+              <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Variasi Katoda, Implementasi Industri, dan Parameter Kondisi Baterai</span>
+              <h2 class="display-5 fw-extrabold mb-4">Karakteristik Hambatan Dalam</h2>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-7">
+              <h5 class="fw-bold mb-3">Hambatan Dinamis (&Delta;V / &Delta;I)</h5>
+              <p class="small text-muted mb-4">Bukan nilai tetap, melainkan berubah tergantung kondisi operasi:</p>
+              <div class="row g-2 small">
+                <div class="col-6"><div class="p-2 border rounded text-muted"><b>Suhu:</b> Rendah = Hambatan &uarr; signifikan.</div></div>
+                <div class="col-6"><div class="p-2 border rounded text-muted"><b>SOC:</b> Ekstrem (Kosong/Penuh) = Hambatan &uarr;.</div></div>
+                <div class="col-6"><div class="p-2 border rounded text-muted"><b>Arus:</b> Arus tinggi = Hambatan &uarr;.</div></div>
+                <div class="col-6"><div class="p-2 border rounded text-muted"><b>Siklus:</b> Penuaan sel = Hambatan &uarr;.</div></div>
+              </div>
+              <div class="mt-4 p-3 bg-light rounded-3 border-start border-3 border-dark">
+                <p class="small mb-0"><b>Bahasa Awam:</b> Seperti "gesekan jalan". Berubah tergantung suhu, sisa daya, dan usia baterai. Makin besar gesekan, makin banyak energi terbuang jadi panas.</p>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="card-wireframe p-4 bg-dark text-white h-100">
+                <h6 class="fw-bold text-uppercase small text-secondary mb-3">Model Pemodelan (RC)</h6>
+                <ul class="xsmall text-secondary ps-3">
+                  <li class="mb-3"><b>Komponen RC Cepat:</b> Mewakili respons instan/penurunan tegangan seketika saat arus mengalir.</li>
+                  <li><b>Komponen RC Lambat:</b> Mewakili respons lambat akibat difusi ion yang berkembang seiring waktu.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 30: KESIMPULAN -->
+      <section class="slide-section" id="slide-30">
+        <div class="w-100 max-w-60mx mx-auto text-center">
+          <span class="text-uppercase text-muted small fw-bold tracking-wider mb-2 d-block">Final Summary</span>
+          <h2 class="display-3 fw-extrabold mb-5">KESIMPULAN</h2>
+          
+          <div class="d-flex flex-column gap-4 text-start">
+            <!-- Poin 1 -->
+            <div class="card-wireframe p-4 shadow-sm">
+              <h5 class="fw-bold mb-2">Prinsip Kerja & Mekanisme</h5>
+              <p class="small text-muted mb-0">Baterai Li-ion adalah perangkat elektrokimia yang bekerja melalui perpindahan ion Li⁺ bolak-balik antara katoda dan anoda — mekanisme sederhana yang memungkinkan energi kimia diubah menjadi listrik secara berulang.</p>
+            </div>
+
+            <!-- Poin 2 -->
+            <div class="card-wireframe p-4 bg-light">
+              <h5 class="fw-bold mb-2">Keunggulan & Variasi Material</h5>
+              <p class="small text-muted mb-0">Keunggulannya terletak pada densitas energi tinggi, tegangan besar, dan <i>self-discharge</i> rendah. Pilihan material katoda menentukan karakteristik akhir (energi vs keamanan vs umur pakai), yang tercermin nyata pada perbedaan performa antar model kendaraan listrik di pasaran.</p>
+            </div>
+
+            <!-- Poin 3 -->
+            <div class="card-wireframe p-4 bg-dark text-white border-0">
+              <h5 class="fw-bold mb-2 text-white">Monitoring & Manajemen</h5>
+              <p class="small text-secondary mb-0">Performa dipantau melalui parameter <b>SOC, DOD, SOH,</b> dan hambatan dalam. Metode pengisian tepat (terutama <b>CCCV</b>) serta Sistem Manajemen Baterai (BMS) menjadi kunci untuk menjaga baterai beroperasi secara aman, efisien, dan tahan lama.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 31: Penutup (Apple Hello Style) -->
+      <section class="slide-section" id="slide-31">
+        <div class="w-100 h-100 d-flex align-items-center justify-content-center flex-column">
+          <div class="apple-hello-wrapper">
+            <span class="hello-word">Terima Kasih</span>
+            <span class="hello-word">Thank You</span>
+            <span class="hello-word">ありがとう</span>
+            <span class="hello-word">Merci</span>
+            <span class="hello-word">Gracias</span>
+            <span class="hello-word">Danke</span>
+            <span class="hello-word">감사합니다</span>
+            <span class="hello-word">谢谢</span>
+            <span class="hello-word">Grazie</span>
+            <span class="hello-word">Obrigado</span>
+          </div>
+          <div class="mt-5 pt-5">
+            <span class="text-uppercase tracking-wider small fw-bold text-muted fade-in-delayed">Navigasi Teknologi Baterai — Kelompok 5 — PPT Web by Abid Albaihaqi</span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    
+    <!-- Fixed Bottom Control Bar -->
+    <footer class="presentation-footer d-flex align-items-center justify-content-between px-4">
+      
+      <!-- Left: Navigation Arrows -->
+      <div class="d-flex gap-2">
+        <button class="btn btn-outline-dark btn-sm rounded-circle d-flex align-items-center justify-content-center" style="width: 36px; height: 36px;" onclick="prevSlide()" id="prev-btn" aria-label="Previous slide">
+          &larr;
+        </button>
+        <button class="btn btn-outline-dark btn-sm rounded-circle d-flex align-items-center justify-content-center" style="width: 36px; height: 36px;" onclick="nextSlide()" id="next-btn" aria-label="Next slide">
+          &rarr;
+        </button>
+      </div>
+      
+      <!-- Center: Thin Progress Bar & Label -->
+      <div class="d-flex flex-column align-items-center flex-grow-1 px-4" style="max-width: 500px;">
+        <span class="small fw-bold text-muted mb-2" id="pagination-label">Slide 1 of 30</span>
+        <div class="w-100 bg-light rounded-pill overflow-hidden" style="height: 4px;">
+          <div class="bg-dark h-100 rounded-pill" style="width: 3.33%; transition: width 0.3s ease;" id="progress-bar"></div>
+        </div>
+      </div>
+      
+      <!-- Right: Bento Grid Toggle Button -->
+      <div>
+        <button class="btn btn-outline-dark btn-sm d-flex align-items-center justify-content-center rounded-circle" style="width: 36px; height: 36px;" onclick="toggleOverview(true)" aria-label="Toggle bento overview">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <rect x="3" y="3" width="7" height="7"/>
+            <rect x="14" y="3" width="7" height="7"/>
+            <rect x="14" y="14" width="7" height="7"/>
+            <rect x="3" y="14" width="7" height="7"/>
+          </svg>
+        </button>
+      </div>
+      
+    </footer>
+    
+    <!-- Bento Grid Overview Modal Overlay -->
+    <div class="bento-overview-modal" id="overview-modal">
+      <div class="d-flex align-items-center justify-content-between mb-5 border-bottom pb-3">
+        <h2 class="fw-extrabold mb-0">Presentation Map</h2>
+        <button class="btn btn-dark btn-sm rounded-circle d-flex align-items-center justify-content-center" style="width: 36px; height: 36px;" onclick="toggleOverview(false)">
+          &times;
+        </button>
+      </div>
+      
+      <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-3" id="bento-grid-items">
+        <!-- Rendered dynamically by Javascript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Interaction Logic -->
+  <script src="script.js"></script>
+</body>
+</html>
