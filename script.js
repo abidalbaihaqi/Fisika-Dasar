@@ -1,6 +1,6 @@
 // State Architecture
 let currentSlide = 1;
-const totalSlides = 31;
+const totalSlides = 24;
 
 const slideTitles = [
   "Cover",
@@ -14,11 +14,6 @@ const slideTitles = [
   "Baterai polimer litium (LiPo)",
   "Li-ion vs LiPo: Perbandingan Head-to-Head",
   "NMC (Nickel Manganese Cobalt)",
-  "NCA (Nickel Cobalt Aluminium)",
-  "LFP (Lithium Iron Phosphate)",
-  "Solid-State Battery",
-  "Sodium-Ion (Na-ion)",
-  "Perbandingan Baterai EV",
   "Komponen Penyusun Baterai Li-ion",
   "Kondisi Awal Sel Baru",
   "Proses Pengisian (Charging)",
@@ -29,8 +24,6 @@ const slideTitles = [
   "Metode Tapper-Current",
   "Metode Pengisian CCCV",
   "Spesifikasi Variasi Katoda",
-  "Implementasi pada EV",
-  "Formulasi Parameter Kondisi",
   "Karakteristik Hambatan Dalam",
   "Kesimpulan",
   "Penutup",
