@@ -1,6 +1,6 @@
 // State Architecture
 let currentSlide = 1;
-const totalSlides = 24;
+const totalSlides = 23;
 
 const slideTitles = [
   "Cover",
@@ -13,7 +13,6 @@ const slideTitles = [
   "Baterai ion litium (Li-ion)",
   "Baterai polimer litium (LiPo)",
   "Li-ion vs LiPo: Perbandingan Head-to-Head",
-  "NMC (Nickel Manganese Cobalt)",
   "Komponen Penyusun Baterai Li-ion",
   "Kondisi Awal Sel Baru",
   "Proses Pengisian (Charging)",
