@@ -275,6 +275,13 @@ body.presentation-mode .exit-presentation-btn {
   transform: rotate(45deg);
 }
 
+/* Premium Modal Styles */
+.modal-backdrop {
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
 /* Apple Hello Style Animation */
 .apple-hello-wrapper {
   position: relative;
